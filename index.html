@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sneaker Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="choose.php">Make a Choice</a></li>
+                <li><a href="requested.php">Requests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Featured Sneakers</h2>
+        <div class="sneaker-gallery">
+            <div class="sneaker-item">
+                <img src="wengang-zhai-_fOL6ebfECQ-unsplash.jpg" width="98" alt="Sneaker 1">
+                <p class="number">#001</p>
+                <p>AIR JORDAN 1</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="ryan-plomp-PGTO_A0eLt4-unsplash (1).jpg" height="34" width="89" alt="Sneaker 2">
+                <p class="number">#002</p>
+                <p>AIR FORCE</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="taylor-smith-aDZ5YIuedQg-unsplash.jpg" height="54" width="92" alt="Sneaker 3">
+                <p class="number">#003</p>
+                <p>LIBERTY SERIES 9</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="warren-jones-LFlVuWLjYEo-unsplash.jpg" height="84" width="94" alt="Sneaker 4">
+                <p class="number">#004</p>
+                <p>AIR MAX 7</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="artem-bondarchuk-XPBYi4K8vFI-unsplash.jpg" height="85" width="95" alt="Sneaker 5">
+                <p class="number">#005</p>
+                <p>NIKE 601</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="jeff-tumale-SD9Jyl1xNQ4-unsplash (1).jpg" height="96" width="98" alt="Sneaker 6">
+                <p class="number">#006</p>
+                <p>AIR 2</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="danilo-capece-NoVnXXmDNi0-unsplash.jpg" height="99" width="98" alt="Sneaker 7">
+                <p class="number">#007</p>
+                <p>AMIIRI MA-1</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="branislav-belko-lJ7iAZxplpc-unsplash.jpg" height="100" width="99" alt="Sneaker 8">
+                <p class="number">#008</p>
+                <p>MEN's AIR 2</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="sebastien-chiron-1LFXMyrFRNw-unsplash.jpg" height="100" width="102" alt="Sneaker 9">
+                <p class="number">#009</p>
+                <p>RED THUNDER</p>
+            </div>
+            <div class="sneaker-item">
+                <img src="maksim-larin-1vy2QcZd5FU-unsplash.jpg" height="101" width="102" alt="Sneaker 10">
+                <p class="number">#010</p>
+                <p>PUMA SERIES 1</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>All Sneakers</h2>
+    </section>
+
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <p>Your cart is currently empty.</p>
+    </section>
+
+    <section id="account">
+        <h2>Your Account</h2>
+        <p>Manage your account details and view your purchase history.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact us on email: abhishek0153@gmail.com</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="address">Address with postal code:</label>
+            <textarea id="address" name="address" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sneaker Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>

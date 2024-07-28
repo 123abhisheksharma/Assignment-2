@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Shop - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 2rem auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Sneaker Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="sneakers.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="About Me.html">About Me</a></li>
+                
+        </nav>
+    </header>
+
+    <!-- Contact Us Page -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="sneaker-color & Size ">Sneaker Colour & Size:</label>
+            <input type="text" id="sneaker-color & Size " name="sneaker-color with Size" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="postal-code">Your  Adress with Postal Code:</label>
+            <input type="text" id="postal-code" name="postal-code" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sneaker Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
